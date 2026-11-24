@@ -1,0 +1,35 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Build
+dist/
+.wrangler/
+.vite/
+
+# Env
+.env
+*.local
+
+# Data (user-generated, not committed)
+outputs/
+inputs/
+backend/data/runs/
+*.parquet
+
+# Editor
+.vscode/
+.idea/
+
+# Input data (never commit a client export)
+*.csv
